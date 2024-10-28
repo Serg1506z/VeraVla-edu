@@ -289,7 +289,7 @@
 }
 
 
-.resons{
+.resons {
     display: flex;
     flex-direction: column;
     background-image: url(./img/resons-fon.png);
@@ -299,13 +299,13 @@
     padding-bottom: 70px;
 }
 
-.resons-title{
+.resons-title {
     font-size: 30px;
     color: #FFFFFF;
     font-family: "Avenir";
 }
 
-.resons-item{
+.resons-item {
     width: 300px;
     border-radius: 10px;
     display: flex;
@@ -318,63 +318,63 @@
     background-image: url(./img/resons-fon.png);
 }
 
-.item-icon1{
+.item-icon1 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon1.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon2{
+.item-icon2 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon2.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon3{
+.item-icon3 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon3.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon4{
+.item-icon4 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon4.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon5{
+.item-icon5 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon5.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon6{
+.item-icon6 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon6.svg);
     background-repeat: no-repeat;
 }
 
-.item-icon7{
+.item-icon7 {
     width: 40px;
     height: 40px;
     background-image: url(./img/resons-icon7.svg);
     background-repeat: no-repeat;
 }
 
-.item-description{
+.item-description {
     margin-top: 10px;
     color: #FFFFFF;
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-.blick{
+.blick {
     width: 54px;
     height: 17px;
     background-position: center;
@@ -384,23 +384,23 @@
     border-radius: 17px;
 }
 
-.II{
+.II {
     display: flex;
     flex-direction: column;
     font-family: "Avenir";
     padding-left: 24px;
     padding-top: 55px;
     background-image: url(./img/ii-background.png);
- 
+
 }
 
-.II-title{
+.II-title {
     font-size: 30px;
     color: #FFFFFF;
     font-family: "Avenir";
 }
 
-.II-item{
+.II-item {
     width: 300px;
     border-radius: 10px;
     display: flex;
@@ -412,7 +412,7 @@
     padding-top: 17px;
 }
 
-.II-item-icon{
+.II-item-icon {
     margin-right: 20px;
     width: 33px;
     height: 33px;
@@ -420,15 +420,63 @@
     background-repeat: no-repeat;
 }
 
-.II-image{
+.II-image {
     background-image: url(./img/ii-image.png);
-    height:262px;
+    height: 262px;
     margin-left: -23px;
     margin-bottom: 5px;
 }
 
-.II-item-description{
+.II-item-description {
     width: 230px;
     font-size: 14px;
+    font-family: "Avenir";
 }
 
+.important {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Avenir";
+    padding-left: 24px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    background-image: url(./img/important-fon.png);
+    gap: 17px 22px;
+}
+
+.important-title{
+    font-size: 30px;
+    font-family: "Avenir";
+}
+.important-item {
+    width: 140px;
+    margin-top: 17px;
+
+}
+
+.important-item-img {
+    width: 140px;
+    height: 100px;
+}
+
+.img1 {
+    background-image: url(./img/important-item1.svg);
+}
+
+.img2 {
+    background-image: url(./img/important-item2.svg);
+}
+
+.img3 {
+    background-image: url(./img/important-item3.svg);
+}
+
+.img4 {
+    background-image: url(./img/important-item4.svg);
+}
+
+.important-item-description {
+    margin-top: 17px;
+    font-size: 14px;
+    font-family: "Avenir";
+}

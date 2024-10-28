@@ -383,3 +383,55 @@
     margin-left: -15px;
     border-radius: 17px;
 }
+
+.II{
+    display: flex;
+    flex-direction: column;
+    font-family: "Avenir";
+    padding-left: 24px;
+    padding-top: 55px;
+    background-image: url(./img/ii-background.png);
+ 
+}
+
+.II-title{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: "Avenir";
+}
+
+.II-item{
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(./img/ii-item-bascground.svg);
+    padding-right: 30px;
+    margin-top: 7px;
+    padding-left: 24px;
+    padding-bottom: 22px;
+    padding-top: 17px;
+}
+
+.II-item-icon{
+    margin-right: 20px;
+    width: 33px;
+    height: 33px;
+    background-image: url(./img/ii-icon.svg);
+    background-repeat: no-repeat;
+}
+
+.II-image{
+    background-image: url(./img/ii-image.png);
+    height:262px;
+    margin-left: -23px;
+    margin-bottom: 5px;
+}
+
+.II-item-description{
+    width: 230px;
+    font-size: 14px;
+}
+
+.II-buttom{
+    mb
+}

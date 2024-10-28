@@ -441,7 +441,7 @@
     padding-top: 55px;
     padding-bottom: 50px;
     background-image: url(./img/important-fon.png);
-    /* gap: 17px 22px; */
+    gap: 17px 22px;
 }
 
 .important-title{

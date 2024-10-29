@@ -444,10 +444,11 @@
     gap: 17px 22px;
 }
 
-.important-title{
+.important-title {
     font-size: 30px;
     font-family: "Avenir";
 }
+
 .important-item {
     width: 140px;
     margin-top: 17px;
@@ -479,4 +480,110 @@
     margin-top: 17px;
     font-size: 14px;
     font-family: "Avenir";
+}
+
+.course-description {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Avenir";
+    padding-left: 24px;
+    padding-top: 55px;
+    background-image: url(./img/course-description-fon.png);
+}
+
+.coyrse-description-title {
+    font-size: 30px;
+    font-family: "Avenir";
+    margin-bottom: 30px;
+}
+
+.parts-course {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.course-item{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-item-icon {
+    display: flex;
+    background-color: #4ABCEC;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-item-title {
+    font-size: 14px;
+    font-family: "Avenir";
+    color: #4ABCEC;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.course-item-description {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    width: 301px;
+    height: 56px;
+    background-image: url(./img/dropbtn-fon.svg);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 264px;
+    background-image: url(./img/course-description-fon.png);
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
